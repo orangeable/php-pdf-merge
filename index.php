@@ -13,7 +13,7 @@
         $command .= getcwd() . "\\pdf\\" . $file . " ";
     }
 
-    $command .= "2&>1";
+    $command .= "2>&1";
 
     echo $command;
 
